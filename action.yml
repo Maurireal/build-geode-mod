@@ -5,7 +5,7 @@ inputs:
   sdk:
     description: Which version of the SDK to use, defaults to latest release. Set to 'given' to use the version specified in mod.json, 'nightly' for latest commit, 'latest' for latest release
     required: false
-    default: given
+    default: nightly
   cli:
     description: Which CLI version to use, defaults to latest release.
     required: false
